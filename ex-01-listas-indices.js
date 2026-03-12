@@ -209,7 +209,7 @@ export const resposta08 = numeros
 numeros[numeros.length] = numeros[0] + numeros[1] + numeros[2] + numeros[3] + numeros[4] + numeros[5] + numeros[6]
 /* Questão 9
 Ainda com a lista da questão 7, mude:
-- O segundo item para a quarta posição
+- O segundo item para a quarta posiçãoo
 - O quarto item para a sexta posição
 - O sexto item para a segunda posição
 E retorne a lista completa na variável "resultado09"
