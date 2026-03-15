@@ -184,8 +184,9 @@ número no índice zero multiplicado pelo item no penúltimo índice.
 */
 // Array na linha abaixo
 const numeros = [7, 2, 4, 9, 8, 6, 1]
+let resultadoMulti = numeros[0] * numeros[5]
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta06 = numeros[0] * numeros[5]
+export const resposta06 = resultadoMulti
 
 /* Questão 7
 Seguindo com a lista criada na questão 7, utilizando os índices de cada item,
@@ -223,7 +224,14 @@ Ainda com a lista da questão 7, mude:
 E retorne a lista completa na variável "resultado09"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta09 = false
+let tempSegundo = numeros[1]
+let tempQuarto = numeros[3]
+let tempSexto = numeros[5]
+
+numeros[3] = tempSegundo
+numeros[5] = tempQuarto
+numeros[1] = tempSexto
+export const resposta09 = numeros
 
 /* Questão 10
 Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
@@ -232,7 +240,7 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 - O terceiro item da nova lista é o antepenúltimo da anterior
 */
 // Nova lista abaixo
-
+const novaLista = [numeros[7], numeros[6], numeros[5]]
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta10 = false
+export const resposta10 = novaLista
 
