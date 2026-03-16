@@ -111,7 +111,7 @@ método push, adicione nesta lista as profissões "programador(a)", "designer",
 envie a lista com as profissões adicionadas na resposta01.
 */
 // Array na linha abaixo
-const profissoes = []
+let profissoes = []
 
 // Operações necessárias e resposta a partir da linha abaixo
 profissoes.push("programador(a)", "designer", "engenheiro(a)", "veterinário(a)", "administrador(a)")
@@ -175,7 +175,7 @@ dentro de si, nesta exata ordem, e retorne esta lista na resposta07.
 // Operações necessárias e resposta a partir da linha abaixo
 const vertebrados = []
 const invertebrados = []
-const animais = []
+let animais = []
 
 vertebrados.push("elefante", "leopardo", "porco-espinho")
 invertebrados.push("polvo", "formiga", "caranguejo")
@@ -236,8 +236,8 @@ reverse nessa lista, e após isso use o método push para adicionar os itens
 final na resposta11.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-const pedras = []
-const pedras01 = pedras.concat(["quartzo", "basalto", "granito"])
+let pedras = []
+let pedras01 = pedras.concat(["quartzo", "basalto", "granito"])
 pedras01.reverse()
 pedras01.push("calcário", "mármore", "mica")
 pedras01.reverse()
@@ -255,7 +255,7 @@ pedras01.unshift("jade")
 pedras01.unshift("obsidiana")
 pedras01.unshift("zircônio")
 
-const pedras02 = pedras01.concat(["topázio", "lazurita", "ônix"])
+pedras01 = pedras01.concat(["topázio", "lazurita", "ônix"])
 export const resposta12 = pedras02
 
 /* Questão 13
@@ -264,11 +264,10 @@ primeiros itens para o final da lista. Após isso, aplique o método reverse, e
 envie a lista na resposta13.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-pedras02.push(pedras02.shift())
-pedras02.push(pedras02.shift())
-pedras02.push(pedras02.shift())
-
-pedras02.reverse()
+pedras01.push(pedras01.shift())
+pedras01.push(pedras01.shift())
+pedras01.push(pedras01.shift())
+pedras01.reverse()
 
 export const resposta13 = pedras02
 
@@ -278,11 +277,11 @@ da lista e armazene-os em uma lista nova. Envie esta lista nova na resposta 14.
 */
 // Operações necessárias e resposta a partir da linha abaixo
 const removidas14 = []
-removidas14.push(pedras02.pop())
-removidas14.push(pedras02.pop())
-removidas14.push(pedras02.pop())
-removidas14.push(pedras02.pop())
-removidas14.push(pedras02.pop())
-removidas14.push(pedras02.pop())
+removidas14.push(pedras01.pop())
+removidas14.push(pedras01.pop())
+removidas14.push(pedras01.pop())
+removidas14.push(pedras01.pop())
+removidas14.push(pedras01.pop())
+removidas14.push(pedras01.pop())
 
 export const resposta14 = removidas14
