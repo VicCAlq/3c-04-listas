@@ -174,7 +174,7 @@ Para finalizar com o array da questão 1, troque as posições dos itens "laranj
 e "manga", e armazene a lista modificada completa na variável "resposta05".
 */
 // Operações necessárias e resposta a partir da linha abaixo
-[frutas[2],frutas[5]] = [frutas[5],frutas[2]]
+;[frutas[2],frutas[5]] = [frutas[5],frutas[2]]
 export const resposta05 = frutas
 
 /* Questão 6
@@ -235,7 +235,7 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 - O terceiro item da nova lista é o antepenúltimo da anterior
 */
 // Nova lista abaixo
-const novaLista = [37,6,4]
+const novaLista = [numeros[numeros.length-1],numeros[numeros.length-2],numeros[numeros.length-3]]
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta10 = novaLista
 
