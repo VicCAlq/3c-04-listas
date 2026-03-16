@@ -152,7 +152,8 @@ da lista de profissões da questão 1. Envie a lista completa na resposta05
 */
 // Operações necessárias e resposta a partir da linha abaixo
 const profissoesRemovidas = [resposta02, resposta04]
-export const resposta05 = profissoes.concat(profissoesRemovidas)
+profissoes = profissoes.concat(profissoesRemovidas)
+export const resposta05 = profissoes
 
 /* Questão 6
 Finalizando com a lista da questão 1, use nela o método reverse para inverter
@@ -188,8 +189,11 @@ fiquem na frente dos animais inicialmente pertencentes a lista de "vertebrados".
 Envie a lista animais modificada na resposta08.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-vertebrados.pop
-export const resposta08 = false
+animais.unshift(animais.pop())
+animais.unshift(animais.pop())
+animais.unshift(animais.pop())
+
+export const resposta08 = animais
 
 /* Questão 9
 Ainda utilizando a lista "animais" da questão 7, use o método reverse na lista,
@@ -197,6 +201,11 @@ e após isso use os métodos shift e push para mover os três itens da frente pa
 o final da fila, um de cada vez. Envie a lista animais modificada na resposta09.
 */
 // Operações necessárias e resposta a partir da linha abaixo
+animais.reverse()
+animais.push(animais.shift())
+animais.push(animais.shift())
+animais.push(animais.shift())
+
 export const resposta09 = false
 
 /* Questão 10
@@ -207,7 +216,10 @@ adicionar os animais "lesma", "borboleta" e "ostra" no final da lista.
 Envie a lista animais modificada na resposta10.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta10 = false
+animais = animais.concat(["Carcará", "Morcego", "Salmão"])
+animais.reverse()
+animais = animais.concat(["Lesma", "Borboleta", "Ostra"])
+export const resposta10 = animais
 
 /* Questão 11
 Crie (usando const) uma lista vazia chamada "pedras", e use nela o método concat
