@@ -151,15 +151,15 @@ o último item da lista. Use a propriedade "length" para auxiliar a encontrar
 o índice deste último item.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta02 = frutas[5]
+export const resposta02 = frutas[frutas.lenght - 1]
 
 /* Questão 3
 Continuando com o array criado na questão 1, altere o quarto item da lista para
 a fruta "abacaxi". Na variável "resposta03" envie a lista completa com a nova fruta.
 */
+frutas[5] = "abacaxi"
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta03 = frutas[5] = "abacaxi"
-
+export const resposta03 = console.log(frutas)
 /* Questão 4
 Ainda com a lista da questão 1, acrescente a fruta "limão" no final da lista, e
 envie a lista inteira na variável "resposta04".
@@ -172,7 +172,7 @@ Para finalizar com o array da questão 1, troque as posições dos itens "laranj
 e "manga", e armazene a lista modificada completa na variável "resposta05".
 */
 // Operações necessárias e resposta a partir da linha abaixo
-[frutas[2], frutas[5]] = [frutas[5], frutas[2]]
+;[frutas[2], frutas[5]] = [frutas[5], frutas[2]]
 export const resposta05 = frutas
 
 /* Questão 6
