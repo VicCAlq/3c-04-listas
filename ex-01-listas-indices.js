@@ -206,7 +206,7 @@ numeros[3] = numeros[2]
 numeros[2] = numeros[1]
 numeros[1] = numeros[0]
 numeros[0] = ultimo
-export const resposta07 = numeros[]
+export const resposta07 = console.log(numeros)
 
 
 /* Questão 8
