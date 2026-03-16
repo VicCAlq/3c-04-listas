@@ -287,3 +287,5 @@ removidas14.push(pedras02.pop())
 removidas14.push(pedras02.pop())
 
 export const resposta14 = removidas14
+
+.
