@@ -159,7 +159,7 @@ a fruta "abacaxi". Na variável "resposta03" envie a lista completa com a nova f
 */
 frutas[5] = "abacaxi"
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta03 = console.log(frutas)
+export const resposta03 = frutas)
 /* Questão 4
 Ainda com a lista da questão 1, acrescente a fruta "limão" no final da lista, e
 envie a lista inteira na variável "resposta04".
@@ -183,7 +183,7 @@ número no índice zero multiplicado pelo item no penúltimo índice.
 // Array na linha abaixo
 const numeros = [7, 2, 4, 9, 8, 6, 1]
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta06 = false
+export const resposta06 = numeros[0] * numeros [5]
 
 /* Questão 7
 Seguindo com a lista criada na questão 7, utilizando os índices de cada item,
