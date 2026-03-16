@@ -153,7 +153,7 @@ da lista de profissões da questão 1. Envie a lista completa na resposta05
 */
 // Operações necessárias e resposta a partir da linha abaixo
 let foramRemovidos = [removido,segundoRemovido]
-profissoes.concat(foramRemovidos)
+profissoes = profissoes.concat(foramRemovidos)
 export const resposta05 = profissoes
 
 /* Questão 6
@@ -179,7 +179,7 @@ let invertebrados = []
 let animais = []
 vertebrados.push("elefante", "leopardo", "porco-espinho")
 invertebrados.push("polvo", "formiga", "caranguejo")
-animais.concat(vertebrados,invertebrados)
+animais = animais.concat(vertebrados,invertebrados)
 export const resposta07 = animais
 
 /* Questão 8
@@ -220,9 +220,9 @@ adicionar os animais "lesma", "borboleta" e "ostra" no final da lista.
 Envie a lista animais modificada na resposta10.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-animais.concat(["carcará", "morcego", "salmão"])
+animais = animais.concat(["carcará", "morcego", "salmão"])
 animais.reverse()
-animais.concat(["lesma", "borboleta", "ostra"])
+animais = animais.concat(["lesma", "borboleta", "ostra"])
 export const resposta10 = animais
 
 /* Questão 11
@@ -234,7 +234,7 @@ final na resposta11.
 */
 // Operações necessárias e resposta a partir da linha abaixo
 let pedras = []
-pedras.concat(["quartzo", "basalto", "granito"])
+pedras = pedras.concat(["quartzo", "basalto", "granito"])
 pedras.reverse()
 pedras.push("calcário", "mármore", "mica")
 pedras.reverse()
@@ -250,7 +250,7 @@ questão. Use o método "concat" para adicionar os itens "topázio", "lazurita" 
 pedras.unshift("jade")
 pedras.unshift("obsidiana")
 pedras.unshift("zircônio")
-pedras.concat(["topázio", "lazurita","ônix"])
+pedras = pedras.concat(["topázio", "lazurita","ônix"])
 export const resposta12 = pedras
 
 /* Questão 13
