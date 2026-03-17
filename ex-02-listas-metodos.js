@@ -228,6 +228,11 @@ reverse nessa lista, e após isso use o método push para adicionar os itens
 final na resposta11.
 */
 // Operações necessárias e resposta a partir da linha abaixo
+let pedras = []
+pedras = pedras.concat(["quartzo", "basalto", "granito" ])
+pedras.reverse()
+pedras.push("calcário", "mármore", "mica" )
+pedras.reverse()
 export const resposta11 = false
 
 /* Questão 12
@@ -237,7 +242,11 @@ questão. Use o método "concat" para adicionar os itens "topázio", "lazurita" 
 "ônix" ao final desta lista, e retorne-a na resposta12.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta12 = false
+pedras.unshift("jade")
+pedras.unshift("obsidiana")
+pedras.unshift("zircônio")
+pedras = pedras.concat(["topázio", "lazurita", "ônix"])
+export const resposta12 = pedras
 
 /* Questão 13
 Seguindo com a lista de pedras, use os métodos shift e pop para mover os três
@@ -245,12 +254,25 @@ primeiros itens para o final da lista. Após isso, aplique o método reverse, e
 envie a lista na resposta13.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta13 = false
+let salva1 = pedras.shift()
+let salva2 = pedras.shift()
+let salva3 = pedras.shift()
+pedras.push(salva3, salva2, salva1)
+pedras.reverse()
+export const resposta13 = pedras
 
 /* Questão 14
 Finalizando com a lista de pedras, use o método pop para remover os 6 itens finais
 da lista e armazene-os em uma lista nova. Envie esta lista nova na resposta 14.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta14 = false
+let r1 = pedras.pop()
+let r2 = pedras.pop()
+let r3 = pedras.pop()
+let r4 = pedras.pop()
+let r5 = pedras.pop()
+let r6 = pedras.pop()
+let novalis2 = []
+novalis2.push(r1, r2, r3, r4, r5, r6)
+export const resposta14 = novalis2
 
