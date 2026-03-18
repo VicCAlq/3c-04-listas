@@ -224,7 +224,8 @@ Ainda com a lista da questão 7, mude:
 E retorne a lista completa na variável "resultado09"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta09 = false
+;[numeros[1], numeros[3], numeros[3], numeros[5], numeros[5], numeros[1]] =  [numeros[3], numeros[1], numeros[5], numeros[3], numeros[1], numeros[5]]
+export const resposta09 = numeros
 
 /* Questão 10
 Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
@@ -233,7 +234,11 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 - O terceiro item da nova lista é o antepenúltimo da anterior
 */
 // Nova lista abaixo
-
+const itens = []
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta10 = false
+itens[0] = numeros[numeros.length - 1]
+itens[1] = numeros[numeros.length - 2]
+itens[2] = numeros[numeros.length - 3]
+
+export const resposta10 = itens
 
