@@ -151,7 +151,7 @@ método "concat" na lista de profissões para adicionar esta nova lista no final
 da lista de profissões da questão 1. Envie a lista completa na resposta05
 */
 // Operações necessárias e resposta a partir da linha abaixo
-foramRemovidos = [removido, primeiroRemovido]
+let foramRemovidos = [removido, primeiroRemovido]
 profissoes = profissoes.concat(foramRemovidos)
 export const resposta05 = profissoes
 
