@@ -246,6 +246,6 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 // Nova lista abaixo
 
 // Operações necessárias e resposta a partir da linha abaixo
-const numeros2 = [nuemros[numeros.length -1] + nuemros[numeros.length - 2] + nuemros[numeros.length - 3]]
+const numeros2 = [numeros[numeros.length -1] + numeros[numeros.length - 2] + numeros[numeros.length - 3]]
 
 export const resposta10 = numeros2;
