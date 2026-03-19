@@ -2,18 +2,12 @@
 |---------|-----------|----------|---------|------------------|
 | ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Parse failure: `let` cannot be used as an identifier in strict mode
 At file: /ex-01-listas-indices.js:178:26 |
-|  1 | Ex 02 | ✅ | ❌ | AssertionError: expected undefined to be type of 'object'
- |
-|  2 | Ex 02 | ✅ | ❌ | AssertionError: expected undefined to be type of 'string'
- |
-|  3 | Ex 02 | ✅ | ❌ | AssertionError: expected undefined to be type of 'object'
- |
-|  4 | Ex 02 | ✅ | ❌ | AssertionError: expected undefined to be type of 'string'
- |
-|  5 | Ex 02 | ✅ | ❌ | AssertionError: expected undefined to be type of 'object'
- |
-|  6 | Ex 02 | ✅ | ❌ | AssertionError: expected undefined to be type of 'object'
- |
+|  1 | Ex 02 | ✅ | ❌ | AssertionError: expected undefined to be type of 'object' |
+|  2 | Ex 02 | ✅ | ❌ | AssertionError: expected undefined to be type of 'string' |
+|  3 | Ex 02 | ✅ | ❌ | AssertionError: expected undefined to be type of 'object' |
+|  4 | Ex 02 | ✅ | ❌ | AssertionError: expected undefined to be type of 'string' |
+|  5 | Ex 02 | ✅ | ❌ | AssertionError: expected undefined to be type of 'object' |
+|  6 | Ex 02 | ✅ | ❌ | AssertionError: expected undefined to be type of 'object' |
 |  7 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  8 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  9 | Ex 02 | ✅ | ✅ | Nenhum erro |
