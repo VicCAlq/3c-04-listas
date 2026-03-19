@@ -1,6 +1,6 @@
 | Questão | Exercício | Entregue | Correto | Mensagem de erro |
 |---------|-----------|----------|---------|------------------|
-| nulo | Ex 1 | nulo | nulo | Assignment to constant variable. |
+| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Assignment to constant variable. |
 |  1 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean'
     at /home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/ex02.test.js:45:34
     at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:145:11
