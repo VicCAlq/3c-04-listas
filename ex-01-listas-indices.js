@@ -197,8 +197,16 @@ de modo que a lista se torne 1, 7, 2, 4, 9, 8, 6. Armazene a lista na
 variável "resposta07"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-;[numeros[0], numeros[numeros.length - 1]] = [numeros[numeros.length - 1], numeros[0]]
-export const resposta07 = numeros
+let numeros = [7, 2, 4, 9, 8, 6, 1]
+
+let primeiro = numeros.shift()
+let ultimo = numeros.pop()
+for(i = 7; i = 0; i--){
+    numeros[1] = numeros[i - 1]
+}
+numeros.push(ultimo)
+numeros = numeros.concat(primeiro)
+console.log(numeros)export const resposta07 = numeros
 
 /* Questão 8
 Continuando com a lista da questão 7, adicione no final da lista o resultado
