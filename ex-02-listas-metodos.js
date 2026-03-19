@@ -274,7 +274,7 @@ Finalizando com a lista de pedras, use o método pop para remover os 6 itens fin
 da lista e armazene-os em uma lista nova. Envie esta lista nova na resposta 14.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-
+let listaNova = []
 listaNova = [pedras.pop(), pedras.pop(), pedras.pop(), pedras.pop(), pedras.pop(), pedras.pop()]
 export const resposta14 = listaNova
 
