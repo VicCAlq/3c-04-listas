@@ -153,7 +153,8 @@ da lista de profissões da questão 1. Envie a lista completa na resposta05
 // Operações necessárias e resposta a partir da linha abaixo
 let novaLis = []
 novaLis.push(sumiu, gusta)
-export const resposta05 = novaLis
+animais = animais.concat(novaLis)
+export const resposta05 = animais
 
 /* Questão 6
 Finalizando com a lista da questão 1, use nela o método reverse para inverter
@@ -201,10 +202,10 @@ o final da fila, um de cada vez. Envie a lista animais modificada na resposta09.
 */
 // Operações necessárias e resposta a partir da linha abaixo
 animais.reverse()
-const a = animais.shift()
-const b = animais.shift()
-const c = animais.shift()
-animais.push(a, b, c)
+const d = animais.shift()
+const e = animais.shift()
+const f = animais.shift()
+animais.push(f, e, d)
 export const resposta09 = animais
 
 /* Questão 10
@@ -233,7 +234,7 @@ pedras = pedras.concat(["quartzo", "basalto", "granito" ])
 pedras.reverse()
 pedras.push("calcário", "mármore", "mica" )
 pedras.reverse()
-export const resposta11 = false
+export const resposta11 = pedras
 
 /* Questão 12
 Continuando com a lista criada na questão 11, use o método unshift para adicionar
