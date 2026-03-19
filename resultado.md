@@ -1,16 +1,118 @@
-| Questão | Exercício | Entregue | Correto |
-|---------|-----------|----------|---------|
-|  1 | Ex 02 | ❌ | ❌ |
-|  2 | Ex 02 | ❌ | ❌ |
-|  3 | Ex 02 | ❌ | ❌ |
-|  4 | Ex 02 | ❌ | ❌ |
-|  5 | Ex 02 | ❌ | ❌ |
-|  6 | Ex 02 | ❌ | ❌ |
-|  7 | Ex 02 | ❌ | ❌ |
-|  8 | Ex 02 | ❌ | ❌ |
-|  9 | Ex 02 | ❌ | ❌ |
-| 10 | Ex 02 | ❌ | ❌ |
-| 11 | Ex 02 | ❌ | ❌ |
-| 12 | Ex 02 | ❌ | ❌ |
-| 13 | Ex 02 | ❌ | ❌ |
-| 14 | Ex 02 | ❌ | ❌ |
+| Questão | Exercício | Entregue | Correto | Mensagem de erro |
+|---------|-----------|----------|---------|------------------|
+| nulo | Ex 1 | nulo | nulo | Parse failure: `let` cannot be used as an identifier in strict mode
+At file: /ex-01-listas-indices.js:178:26 |
+|  1 | Ex 02 | ✅ | ❌ | AssertionError: expected undefined to be type of 'object'
+    at /home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/ex02.test.js:49:30
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:145:11
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:915:26
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1243:20
+    at new Promise (<anonymous>)
+    at runWithTimeout (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1209:10)
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1653:37
+    at Traces.$ (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/vitest/dist/chunks/traces.CCmnQaNT.js:142:27)
+    at trace (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/vitest/dist/chunks/test.B8ej_ZHS.js:239:21)
+    at runTest (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1653:12) |
+|  2 | Ex 02 | ✅ | ❌ | AssertionError: expected undefined to be type of 'string'
+    at /home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/ex02.test.js:49:30
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:145:11
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:915:26
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1243:20
+    at new Promise (<anonymous>)
+    at runWithTimeout (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1209:10)
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1653:37
+    at Traces.$ (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/vitest/dist/chunks/traces.CCmnQaNT.js:142:27)
+    at trace (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/vitest/dist/chunks/test.B8ej_ZHS.js:239:21)
+    at runTest (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1653:12) |
+|  3 | Ex 02 | ✅ | ❌ | AssertionError: expected undefined to be type of 'object'
+    at /home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/ex02.test.js:49:30
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:145:11
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:915:26
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1243:20
+    at new Promise (<anonymous>)
+    at runWithTimeout (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1209:10)
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1653:37
+    at Traces.$ (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/vitest/dist/chunks/traces.CCmnQaNT.js:142:27)
+    at trace (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/vitest/dist/chunks/test.B8ej_ZHS.js:239:21)
+    at runTest (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1653:12) |
+|  4 | Ex 02 | ✅ | ❌ | AssertionError: expected undefined to be type of 'string'
+    at /home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/ex02.test.js:49:30
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:145:11
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:915:26
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1243:20
+    at new Promise (<anonymous>)
+    at runWithTimeout (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1209:10)
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1653:37
+    at Traces.$ (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/vitest/dist/chunks/traces.CCmnQaNT.js:142:27)
+    at trace (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/vitest/dist/chunks/test.B8ej_ZHS.js:239:21)
+    at runTest (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1653:12) |
+|  5 | Ex 02 | ✅ | ❌ | AssertionError: expected undefined to be type of 'object'
+    at /home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/ex02.test.js:49:30
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:145:11
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:915:26
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1243:20
+    at new Promise (<anonymous>)
+    at runWithTimeout (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1209:10)
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1653:37
+    at Traces.$ (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/vitest/dist/chunks/traces.CCmnQaNT.js:142:27)
+    at trace (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/vitest/dist/chunks/test.B8ej_ZHS.js:239:21)
+    at runTest (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1653:12) |
+|  6 | Ex 02 | ✅ | ❌ | AssertionError: expected undefined to be type of 'object'
+    at /home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/ex02.test.js:49:30
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:145:11
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:915:26
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1243:20
+    at new Promise (<anonymous>)
+    at runWithTimeout (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1209:10)
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1653:37
+    at Traces.$ (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/vitest/dist/chunks/traces.CCmnQaNT.js:142:27)
+    at trace (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/vitest/dist/chunks/test.B8ej_ZHS.js:239:21)
+    at runTest (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1653:12) |
+|  7 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  8 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  9 | Ex 02 | ✅ | ✅ | Nenhum erro |
+| 10 | Ex 02 | ✅ | ✅ | Nenhum erro |
+| 11 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean'
+    at /home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/ex02.test.js:45:34
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:145:11
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:915:26
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1243:20
+    at new Promise (<anonymous>)
+    at runWithTimeout (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1209:10)
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1653:37
+    at Traces.$ (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/vitest/dist/chunks/traces.CCmnQaNT.js:142:27)
+    at trace (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/vitest/dist/chunks/test.B8ej_ZHS.js:239:21)
+    at runTest (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1653:12) |
+| 12 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean'
+    at /home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/ex02.test.js:45:34
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:145:11
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:915:26
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1243:20
+    at new Promise (<anonymous>)
+    at runWithTimeout (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1209:10)
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1653:37
+    at Traces.$ (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/vitest/dist/chunks/traces.CCmnQaNT.js:142:27)
+    at trace (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/vitest/dist/chunks/test.B8ej_ZHS.js:239:21)
+    at runTest (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1653:12) |
+| 13 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean'
+    at /home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/ex02.test.js:45:34
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:145:11
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:915:26
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1243:20
+    at new Promise (<anonymous>)
+    at runWithTimeout (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1209:10)
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1653:37
+    at Traces.$ (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/vitest/dist/chunks/traces.CCmnQaNT.js:142:27)
+    at trace (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/vitest/dist/chunks/test.B8ej_ZHS.js:239:21)
+    at runTest (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1653:12) |
+| 14 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean'
+    at /home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/ex02.test.js:45:34
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:145:11
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:915:26
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1243:20
+    at new Promise (<anonymous>)
+    at runWithTimeout (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1209:10)
+    at file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1653:37
+    at Traces.$ (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/vitest/dist/chunks/traces.CCmnQaNT.js:142:27)
+    at trace (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/vitest/dist/chunks/test.B8ej_ZHS.js:239:21)
+    at runTest (file:///home/vicmca/CodeProjects/School/materiais/atividades/3c-04-listas/node_modules/@vitest/runner/dist/index.js:1653:12) |
