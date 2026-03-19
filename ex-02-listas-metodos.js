@@ -126,7 +126,7 @@ resposta02.
 // Operações necessárias e resposta a partir da linha abaixo
 const reUltimo = profissoes.pop()
 export const resposta02 = reUltimo;
-
+.
 /* Questão 3
 Seguindo com a mesma lista de profissões da questão 1, use o método unshift
 para adicionar a profissão "músico(a)" no início da lista, e retorne
@@ -229,7 +229,12 @@ reverse nessa lista, e após isso use o método push para adicionar os itens
 final na resposta11.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta11 = false
+let pedras = [];
+pedras = pedras.concat(["quartzo", "basalto", "granito"]);
+pedras.reverse();
+pedras.push("calcário", "mármore", "mica");
+pedras.reverse();
+export const resposta11 = pedras;
 
 /* Questão 12
 Continuando com a lista criada na questão 11, use o método unshift para adicionar
@@ -238,20 +243,36 @@ questão. Use o método "concat" para adicionar os itens "topázio", "lazurita" 
 "ônix" ao final desta lista, e retorne-a na resposta12.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta12 = false
+
+pedras.unshift("jade");
+pedras.unshift("obsidiana");
+pedras.unshift("zircônio");
+pedras = pedras.concat(["topázio", "lazurita", "ônix"]);
+export const resposta12 = pedras;
 
 /* Questão 13
-Seguindo com a lista de pedras, use os métodos shift e pop para mover os três
+Seguindo com a lista de pedras, use os métodos shift e push para mover os três
 primeiros itens para o final da lista. Após isso, aplique o método reverse, e
 envie a lista na resposta13.
 */
-// Operações necessárias e resposta a partir da linha abaixo
-export const resposta13 = false
+// Operações necessárias e resposta a partir da linha 
+pedras.push(pedras.shift());
+pedras.push(pedras.shift());
+pedras.push(pedras.shift());
+pedras.reverse();
+
+export const resposta13 = pedras;
 
 /* Questão 14
 Finalizando com a lista de pedras, use o método pop para remover os 6 itens finais
 da lista e armazene-os em uma lista nova. Envie esta lista nova na resposta 14.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta14 = false
-
+let Rem = [];
+Rem.unshift(pedras.pop());
+Rem.unshift(pedras.pop());
+Rem.unshift(pedras.pop());
+Rem.unshift(pedras.pop());
+Rem.unshift(pedras.pop());
+Rem.unshift(pedras.pop());
+export const resposta14 = Rem;
