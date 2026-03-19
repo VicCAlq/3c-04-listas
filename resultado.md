@@ -1,6 +1,6 @@
 | Questão | Exercício | Entregue | Correto | Mensagem de erro |
 |---------|-----------|----------|---------|------------------|
-| nulo | Ex 2 | nulo | nulo | animais.contact is not a function |
+| ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | animais.contact is not a function |
 |  1 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  2 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  3 | Ex 01 | ✅ | ✅ | Nenhum erro |
