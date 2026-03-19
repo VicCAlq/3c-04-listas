@@ -204,8 +204,9 @@ let ultimo = numeros.pop()
 for(i = 7; i = 0; i--){
     numeros[1] = numeros[i - 1]
 }
-numeros.push(ultimo)
+numeros.unshift(ultimo)
 numeros = numeros.concat(primeiro)
+console.log(numeros)
 console.log(numeros)export const resposta07 = numeros
 
 /* Questão 8
