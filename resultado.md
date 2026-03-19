@@ -1,16 +1,13 @@
-| Questão | Exercício | Entregue | Correto |
-|---------|-----------|----------|---------|
-|  1 | Ex 02 | ❌ | ❌ |
-|  2 | Ex 02 | ❌ | ❌ |
-|  3 | Ex 02 | ❌ | ❌ |
-|  4 | Ex 02 | ❌ | ❌ |
-|  5 | Ex 02 | ❌ | ❌ |
-|  6 | Ex 02 | ❌ | ❌ |
-|  7 | Ex 02 | ❌ | ❌ |
-|  8 | Ex 02 | ❌ | ❌ |
-|  9 | Ex 02 | ❌ | ❌ |
-| 10 | Ex 02 | ❌ | ❌ |
-| 11 | Ex 02 | ❌ | ❌ |
-| 12 | Ex 02 | ❌ | ❌ |
-| 13 | Ex 02 | ❌ | ❌ |
-| 14 | Ex 02 | ❌ | ❌ |
+| Questão | Exercício | Entregue | Correto | Mensagem de erro |
+|---------|-----------|----------|---------|------------------|
+| nulo | Ex 2 | nulo | nulo | animais.contact is not a function |
+|  1 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  2 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  3 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  4 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  5 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  6 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  7 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  8 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  9 | Ex 01 | ✅ | ✅ | Nenhum erro |
+| 10 | Ex 01 | ✅ | ✅ | Nenhum erro |
