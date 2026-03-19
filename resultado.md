@@ -1,26 +1,5 @@
-| Questão | Exercício | Entregue | Correto |
-|---------|-----------|----------|---------|
-|  1 | Ex 01 | ✅ | ✅ |
-|  2 | Ex 01 | ✅ | ✅ |
-|  3 | Ex 01 | ✅ | ❌ |
-|  4 | Ex 01 | ✅ | ✅ |
-|  5 | Ex 01 | ✅ | ✅ |
-|  6 | Ex 01 | ❌ | ❌ |
-|  7 | Ex 01 | ❌ | ❌ |
-|  8 | Ex 01 | ❌ | ❌ |
-|  9 | Ex 01 | ❌ | ❌ |
-| 10 | Ex 01 | ❌ | ❌ |
-|  1 | Ex 02 | ❌ | ❌ |
-|  2 | Ex 02 | ❌ | ❌ |
-|  3 | Ex 02 | ❌ | ❌ |
-|  4 | Ex 02 | ❌ | ❌ |
-|  5 | Ex 02 | ❌ | ❌ |
-|  6 | Ex 02 | ❌ | ❌ |
-|  7 | Ex 02 | ❌ | ❌ |
-|  8 | Ex 02 | ❌ | ❌ |
-|  9 | Ex 02 | ❌ | ❌ |
-| 10 | Ex 02 | ❌ | ❌ |
-| 11 | Ex 02 | ❌ | ❌ |
-| 12 | Ex 02 | ❌ | ❌ |
-| 13 | Ex 02 | ❌ | ❌ |
-| 14 | Ex 02 | ❌ | ❌ |
+| Questão | Exercício | Entregue | Correto | Mensagem de erro |
+|---------|-----------|----------|---------|------------------|
+| nulo | Ex 1 | nulo | nulo | Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension. |
+| nulo | Ex 2 | nulo | nulo | Parse failure: Expected ',', got 'ident'
+At file: /ex-02-listas-metodos.js:247:38 |
