@@ -7,7 +7,7 @@ a linguagem JavaScript. Isso significa que para além do valor que atribuímos a
 elas também possuem "propriedades" e "métodos".
 
 Vimos no primeiro exercício sobre a propriedade "length", que nos informa a
-quantidade de itens existentes na lista. Propriedades são simplesmente valores
+quantidade de itens existentes na profissoes. Propriedades são simplesmente valores
 associados a objetos.
 
 "Métodos" por sua vez são "funções" que executam algo relacionado ao objeto. Lembram
@@ -65,7 +65,7 @@ exPrimeiroItem === ""Esse"
 
 4. unshift: O método "unshift", sem tradução direta, faz o "oposto" do que o
             "shift" faz, ou seja, ele funciona como o "push", mas para o começo
-            da lista. Ele insere um ou mmais valores novos no início da lista:
+            da profissoes. Ele insere um ou mmais valores novos no início da lista:
 
 listaExemplo.unshift("Meu")
 ["Meu", "Aquele", "Aqui", "Aí", "Alí", "Acolá", "Isto", "Isso"]
@@ -122,7 +122,7 @@ o último item da lista e armazená-lo em uma variável. Envie esta variável na
 resposta02.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-lista.pop()
+profissoes.pop()
 export const resposta02 = lista
 
 /* Questão 3
@@ -131,7 +131,7 @@ para adicionar a profissão "músico(a)" no início da lista, e retorne
 a lista completa na resposta03.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-lista.unpush("músico(a)")
+profissoes.unpush("músico(a)")
 export const resposta03 = lista
 
 /* Questão 4
@@ -140,7 +140,7 @@ na lista de profissões para remover o atual primeiro item da lista e guardá-lo
 nesta variável. Envie a variável com a profissão removida na resposta04.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-lista.shift()
+profissoes.shift()
 const resto = [lista]
 export const resposta04 = lista
 
@@ -152,7 +152,7 @@ da lista de profissões da questão 1. Envie a lista completa na resposta05
 */
 // Operações necessárias e resposta a partir da linha abaixo
 const listaUm = ["administrador(a)", "programador(a)"]
-lista.concat(listaUm)
+profissoes.concat(listaUm)
 export const resposta05 = lista
 
 /* Questão 6
@@ -160,7 +160,7 @@ Finalizando com a lista da questão 1, use nela o método reverse para inverter
 a ordem da lista, e envie a lista com sua ordem invertida na resposta06.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-lista.reverse()
+profissoes.reverse()
 export const resposta06 = lista
 
 /* Questão 7
@@ -205,7 +205,7 @@ export const resposta09 = animais
 Finalizando com a lista "animais" da questão 7, use o método concat na lista
 para adicionar os animais "carcará", "morcego" e "salmão". Use o método reverse
 na lista após adicionar estes animais, e use novamente o método concat para
-adicionar os animais "lesma", "borboleta" e "ostra" no final da lista.
+adicionar os animais "lesma", "borboleta" e "ostra" no final da profissoes.
 Envie a lista animais modificada na resposta10.
 */
 // Operações necessárias e resposta a partir da linha abaixo
@@ -242,7 +242,7 @@ export const resposta12 = pedras
 
 /* Questão 13
 Seguindo com a lista de pedras, use os métodos shift e pop para mover os três
-primeiros itens para o final da lista. Após isso, aplique o método reverse, e
+primeiros itens para o final da profissoes. Após isso, aplique o método reverse, e
 envie a lista na resposta13.
 */
 // Operações necessárias e resposta a partir da linha abaixo

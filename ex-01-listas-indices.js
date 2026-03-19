@@ -23,14 +23,14 @@ console.log(minhaLista)      // Vai exibir ["item 1", "segundo item", "3º", "it
 E quando queremos acessar apenas um item da lista? Da mesma forma que em uma fila
 de pessoas podemos referenciar a pessoa pela posição dela na lista (A sexta pessoa
 da lista, levante a mão por favor!), podemos também referenciar os itens de uma lista
-pela posição deles nesta lista. 
+pela posição deles nesta profissoes. 
 
 A sintaxe para isso é utilizar o nome da lista seguido do número correspondente
 a posição desejada entre colchetes. Exemplo:
 
 minhaLista[1]               // Acessa o valor "segundo item"
 
-Notem que quando utilizamos o índice 1, estamos acessando o SEGUNDO item da lista.
+Notem que quando utilizamos o índice 1, estamos acessando o SEGUNDO item da profissoes.
 Isso se deve ao fato que em quase toda linguagem de programação (JavaScript incluso)
 índices, sejam de listas ou outras estruturas de dados com índices (como strings)
 são contados começando a partir do zero. Então para acessar o primeiro item, usamos:
@@ -45,11 +45,11 @@ minhaLista[3]               // Acessa o valor "item quatro"
 Pergunta: É sempre necessário saber o tamanho da lista para poder acessar itens
 em ordem reversa? É possível começar do último?
 
-Resposta: Não é necessário saber o tamanho total da lista. Toda lista traz consigo
+Resposta: Não é necessário saber o tamanho total da profissoes. Toda lista traz consigo
 além dos valores armazenados nela, algumas propriedades e funções. Podemos descobrir
 o tamanho total da lista usando a propriedade "length", como na sintaxe abaixo:
 
-minhaLista.length           // Nos retorna o valor 4
+minhaprofissoes.length           // Nos retorna o valor 4
 
 Notem que para a quantidade de itens da lista, não se considera a mesma contagem
 que o índice: Uma lista com 4 itens não tem seus itens contados a partir do zero
@@ -58,9 +58,9 @@ por que uma lista pode existir com zero itens.
 E como podemos então acessar o último item de uma lista sem saber o tamanho total
 dela com antecedência? Podemos usar essa propriedade de "length"?
 
-minhaLista[minhaLista.length]    // Nos retorna undefined
+minhaLista[minhaprofissoes.length]    // Nos retorna undefined
 
-Na hora que usamos "minhaLista.length" como valor para o índice, o valor dentro
+Na hora que usamos "minhaprofissoes.length" como valor para o índice, o valor dentro
 dos colchetes é substiituído pelo valor "4". Como vimos anteriormente, índices
 são contados a partir do zero, então quando acessamos minhaLista[4], estamos
 tentando na verdade acessar o QUINTO item, mas esta lista só tem quatro itens.
@@ -68,13 +68,13 @@ tentando na verdade acessar o QUINTO item, mas esta lista só tem quatro itens.
 Se quisermos então acessar o último item da lista usando a propriedade "length"
 podemos simplesmente subtrair 1 do número de itens da lista:
 
-minhaLista[minhaLista.length - 1]      // Acessa o valor "item quatro"
+minhaLista[minhaprofissoes.length - 1]      // Acessa o valor "item quatro"
 
 Da mesma forma, podemos acessar o penúltimo item com:
-minhaLista[minhaLista.length - 2]      // Acessa o valor "3º"
+minhaLista[minhaprofissoes.length - 2]      // Acessa o valor "3º"
 
 E o antepenúltimo item com:
-minhaLista[minhaLista.length - 3]      // Acessa o valor "segundo item"
+minhaLista[minhaprofissoes.length - 3]      // Acessa o valor "segundo item"
 
 E por aí vai.
 
@@ -90,7 +90,7 @@ Temos o valor de:
 
 E como podemos adicionar um item a mais na lista usando índices?
 
-minhaLista[minhaLista.length] = "item nº 5"
+minhaLista[minhaprofissoes.length] = "item nº 5"
 ["item 1", "2º item", "3º", "item quatro", "item nº 5"]
 
 E como podemos trocar dois itens de lugar usando índices? Dois jeitos:
@@ -138,16 +138,16 @@ MÍNIMO NECESSÁRIO PARA NOTA MÁXIMA: 7 questões
 
 /* Questão 1
 Crie uma lista (com const) chamado "frutas" com os itens: "maçã", "banana", "laranja", 
-"uva", "pêra", "manga". Armazene na variável "resposta01" o segundo item dessa lista.
+"uva", "pêra", "manga". Armazene na variável "resposta01" o segundo item dessa profissoes.
 */
 // Array na linha abaixo
-const frutas ["maça", "banana","laranja","uva","pêra", "manga"]
+const frutas = ["maça", "banana","laranja","uva","pêra", "manga"]
 // Operações necessárias e resposta a partir da linha abaixo
 export const resposta01 = frutas[1]
 
 /* Questão 2
 Ainda utilizando o array criado na questão 1, armazene na variável "resposta02"
-o último item da lista. Use a propriedade "length" para auxiliar a encontrar
+o último item da profissoes. Use a propriedade "length" para auxiliar a encontrar
 o índice deste último item.
 */
 // Operações necessárias e resposta a partir da linha abaixo
@@ -207,7 +207,7 @@ export const resposta07 = false
 
 /* Questão 8
 Continuando com a lista da questão 7, adicione no final da lista o resultado
-da soma de todos os números anteriores da lista. Retorne a lista completa na
+da soma de todos os números anteriores da profissoes. Retorne a lista completa na
 variável "resultado08". É proibido usar métodos de listas e funções.
 */
 // Operações necessárias e resposta a partir da linha abaixo
