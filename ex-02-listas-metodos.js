@@ -214,9 +214,9 @@ adicionar os animais "lesma", "borboleta" e "ostra" no final da lista.
 Envie a lista animais modificada na resposta10.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-animais = animais.concat("carcará", "morcego", "salmão")
+animais = animais.concat(["carcará", "morcego", "salmão"])
 animais.reverse()
-animais = animais.concat("lesma", "borboleta", "ostra")
+animais = animais.concat(["lesma", "borboleta", "ostra"])
 export const resposta10 = animais
 
 /* Questão 11
@@ -228,7 +228,7 @@ final na resposta11.
 */
 // Operações necessárias e resposta a partir da linha abaixo
 let pedras = []
-pedras = pedras.concat("quartzo", "basalto", "granito")
+pedras = pedras.concat(["quartzo", "basalto", "granito"])
 pedras.reverse()
 pedras.push("calcário", "mármore","mica")
 pedras.reverse()
