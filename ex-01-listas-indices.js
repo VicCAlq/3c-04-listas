@@ -164,15 +164,10 @@ envie a lista inteira na variável "resposta04".
 */
 // Operações necessárias e resposta a partir da linha abaixo
 
-export const resposta04 =  frutas[6]="limão"
-'limão'
-> frutas
-[
-  'maça',    'banana',
-  'laranja', 'abacaxi',
-  'pêra',    'manga',
-  'limão'
-]
+frutas[frutas.length] = "limão"
+export const resposta04 =  frutas
+
+ 
 /* Questão 5
 Para finalizar com o array da questão 1, troque as posições dos itens "laranja"
 e "manga", e armazene a lista modificada completa na variável "resposta05".
@@ -213,7 +208,7 @@ da soma de todos os números anteriores da lista. Retorne a lista completa na
 variável "resultado08". É proibido usar métodos de listas e funções.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta08 =
+export const resposta08 = numeros
   numeros[7] = numeros[0] + numeros[1] + numeros[2] + numeros[3] + numeros[4] + numeros[5] + numeros[6]
 
 /* Questão 9
