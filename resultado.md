@@ -1,5 +1,5 @@
 | Questão | Exercício | Entregue | Correto | Mensagem de erro |
 |---------|-----------|----------|---------|------------------|
-| nulo | Ex 1 | nulo | nulo | Parse failure: 'const' declarations must be initialized
+| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Parse failure: 'const' declarations must be initialized
 At file: /ex-01-listas-indices.js:144:6 |
-| nulo | Ex 2 | nulo | nulo | lista is not defined |
+| ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | lista is not defined |
