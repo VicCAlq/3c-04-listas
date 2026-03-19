@@ -126,7 +126,7 @@ resposta02.
 // Operações necessárias e resposta a partir da linha abaixo
 const reUltimo = profissoes.pop()
 export const resposta02 = reUltimo;
-.
+
 /* Questão 3
 Seguindo com a mesma lista de profissões da questão 1, use o método unshift
 para adicionar a profissão "músico(a)" no início da lista, e retorne
@@ -181,7 +181,7 @@ let invertebrados = [];
 let animais = [];
 vertebrado.push("elefante", "leopardo", "porco-espinho");
 invertebrados.push("polvo", "formiga", "caranguejo");
-animais.concat(vertebrado, invertebrado);
+animais.concat(vertebrados, invertebrados);
 export const resposta07 = animais;
 
 /* Questão 8
