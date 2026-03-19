@@ -173,12 +173,12 @@ lista "animais" para juntar o conteúdo das listas "vertebrado" e "invertebrado"
 dentro de si, nesta exata ordem, e retorne esta lista na resposta07.
 */
 // Operações necessárias e resposta a partir da linha abaixo
- const vertebrados = []
- const invertebrados = []
- const animais = []
+let vertebrados = []
+let invertebrados = []
+let animais = []
 vertebrados.push("elefantes","leopardo","porco-espinho")
 invertebrados.push("polvo","formiga","caranguejo")
-animais.concat(vertebrados,invertebrados)
+animais = animais.concat(vertebrados,invertebrados)
 export const resposta07 = animais
 
 /* Questão 8
@@ -265,6 +265,6 @@ Finalizando com a lista de pedras, use o método pop para remover os 6 itens fin
 da lista e armazene-os em uma lista nova. Envie esta lista nova na resposta 14.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-listaNova = [pedras.pop(), pedras.pop(), pedras.pop(), pedras.pop(), pedras.pop(), pedras.pop()]
+let listaNova = [pedras.pop(), pedras.pop(), pedras.pop(), pedras.pop(), pedras.pop(), pedras.pop()]
 export const resposta14 = listaNova
 
