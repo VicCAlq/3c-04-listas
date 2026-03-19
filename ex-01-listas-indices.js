@@ -199,15 +199,13 @@ variável "resposta07"
 // Operações necessárias e resposta a partir da linha abaixo
 let numeros = [7, 2, 4, 9, 8, 6, 1]
 
-let primeiro = numeros.shift()
 let ultimo = numeros.pop()
-for(i = 7; i = 0; i--){
-    numeros[1] = numeros[i - 1]
+for (let i = 0; i  >= numeros.length; i++) {
+    numeros[i] = numeros[i + 1]
 }
 numeros.unshift(ultimo)
-numeros = numeros.concat(primeiro)
-console.log(numeros)
-console.log(numeros)export const resposta07 = numeros
+
+export const resposta07 = numeros
 
 /* Questão 8
 Continuando com a lista da questão 7, adicione no final da lista o resultado
@@ -217,7 +215,7 @@ variável "resultado08". É proibido usar métodos de listas e funções.
 // Operações necessárias e resposta a partir da linha abaixo
 let soma
 
-for(i= 0; i < numeros.length; i++){
+for(let i= 0; i < numeros.length; i++){
     soma += numeros[i]
 }
 
