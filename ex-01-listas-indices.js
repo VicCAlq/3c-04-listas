@@ -159,7 +159,7 @@ a fruta "abacaxi". Na variável "resposta03" envie a lista completa com a nova f
 */
 frutas[5] = "abacaxi"
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta03 = frutas)
+export const resposta03 = frutas
 /* Questão 4
 Ainda com a lista da questão 1, acrescente a fruta "limão" no final da lista, e
 envie a lista inteira na variável "resposta04".
