@@ -19,7 +19,7 @@
 |  7 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  8 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  9 | Ex 02 | ✅ | ✅ | Nenhum erro |
-| 10 | Ex 02 | ✅ | ❌ | AssertionError: expected undefined to be type of 'object' |
+| 10 | Ex 02 | ✅ | ✅ | Nenhum erro |
 | 11 | Ex 02 | ✅ | ✅ | Nenhum erro |
 | 12 | Ex 02 | ✅ | ✅ | Nenhum erro |
 | 13 | Ex 02 | ✅ | ✅ | Nenhum erro |
