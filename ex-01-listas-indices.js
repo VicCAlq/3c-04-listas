@@ -197,8 +197,6 @@ de modo que a lista se torne 1, 7, 2, 4, 9, 8, 6. Armazene a lista na
 variável "resposta07"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-let numeros = [7, 2, 4, 9, 8, 6, 1]
-
 let ultimo = numeros.pop()
 for (let i = 0; i  >= numeros.length; i++) {
     numeros[i] = numeros[i + 1]
