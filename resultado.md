@@ -1,5 +1,13 @@
 | Questão | Exercício | Entregue | Correto | Mensagem de erro |
 |---------|-----------|----------|---------|------------------|
-| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension. |
-| ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | Parse failure: Expected ',', got 'ident'
-At file: /ex-02-listas-metodos.js:247:38 |
+| ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | Identifier 'p1' has already been declared |
+|  1 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  2 | Ex 01 | ✅ | ❌ | AssertionError: expected undefined to be type of 'string' |
+|  3 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  4 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  5 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  6 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  7 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  8 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  9 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+| 10 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
