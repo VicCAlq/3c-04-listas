@@ -1,3 +1,6 @@
+Data de atualização: Dia 29/03/2026 às 20:16:53
+ 
+
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
 | ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | Identifier 'p1' has already been declared |
