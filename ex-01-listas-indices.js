@@ -143,55 +143,47 @@ Crie uma lista (com const) chamado "frutas" com os itens: "maçã", "banana", "l
 // Array na linha abaixo
 
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta01 = false
 const frutas = ["maçã", "banana", "laranja", "uva", "pêra", "manga"]
 export const resposta01 = frutas[1]
-
 /* Questão 2
 Ainda utilizando o array criado na questão 1, armazene na variável "resposta02"
 o último item da lista. Use a propriedade "length" para auxiliar a encontrar
 o índice deste último item.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta02 = false
 export const resposta02 = frutas[frutas.length - 1]
-
 /* Questão 3
 Continuando com o array criado na questão 1, altere o quarto item da lista para
 a fruta "abacaxi". Na variável "resposta03" envie a lista completa com a nova fruta.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta03 = false
 frutas[3] = "abacaxi"
 export const resposta03 = frutas
-
 /* Questão 4
 Ainda com a lista da questão 1, acrescente a fruta "limão" no final da lista, e
 envie a lista inteira na variável "resposta04".
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta04 = false
 frutas[frutas.length] = "limão"
 export const resposta04 = frutas
-
 /* Questão 5
 Para finalizar com o array da questão 1, troque as posições dos itens "laranja"
 e "manga", e armazene a lista modificada completa na variável "resposta05".
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta05 = false
 let temp = frutas[2] 
-frutas[2] = frutas[5] 
+frutas[2] = frutas[5]
 frutas[5] = temp
 export const resposta05 = frutas
 
 /* Questão 6
 Crie um array (também com const ao invés de let) chamado "numeros" com os valores
-@@ -182,7 +188,8 @@ número no índice zero multiplicado pelo item no penúltimo índice.
+7, 2, 4, 9, 8, 6, 1 nesta ordem. Armazene na variável "resposta06" o resultado do
+número no índice zero multiplicado pelo item no penúltimo índice.
+*/
 // Array na linha abaixo
 
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta06 = false
 const numeros = [7, 2, 4, 9, 8, 6, 1]
 export const resposta06 = numeros[0] * numeros[numeros.length - 2]
 
@@ -201,21 +193,18 @@ Seguindo com a lista criada na questão 7, utilizando os índices de cada item,
 variável "resposta07"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta07 = false
 let temp2 = numeros[numeros.length - 1]
 for (let i = numeros.length - 1; i > 0; i--) {
   numeros[i] = numeros[i - 1]
 }
 numeros[0] = temp2
-export const resposta07 = numeros fals
-
+export const resposta07 = numeros
 /* Questão 8
 Continuando com a lista da questão 7, adicione no final da lista o resultado
 da soma de todos os números anteriores da lista. Retorne a lista completa na
 variável "resultado08". É proibido usar métodos de listas e funções.
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta08 = false
 let soma = 0
 for (let i = 0; i < numeros.length; i++) {
   soma += numeros[i]
@@ -225,7 +214,9 @@ export const resposta08 = numeros
 
 /* Questão 9
 Ainda com a lista da questão 7, mude:
-@@ -209,7 +226,15 @@ Ainda com a lista da questão 7, mude:
+- O segundo item para a quarta posição
+- O quarto item para a sexta posição
+- O sexto item para a segunda posição
 E retorne a lista completa na variável "resultado09"
 */
 // Operações necessárias e resposta a partir da linha abaixo
@@ -242,7 +233,10 @@ export const resposta09 = numeros
 
 /* Questão 10
 Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
-@@ -220,5 +245,9 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
+- O primeiro item da nova lista é o último da anterior
+- O segundo item da nova lista é o penúltimo da anterior
+- O terceiro item da nova lista é o antepenúltimo da anterior
+*/
 // Nova lista abaixo
 
 // Operações necessárias e resposta a partir da linha abaixo
@@ -253,4 +247,5 @@ const novaLista = [
   numeros[numeros.length - 2],
   numeros[numeros.length - 3]
 ]
+
 export const resposta10 = novaLista
