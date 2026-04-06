@@ -254,4 +254,3 @@ const novaLista = [
   numeros[numeros.length - 3]
 ]
 export const resposta10 = novaLista
-
