@@ -220,7 +220,7 @@ Ainda com a lista da questão 7, mude:
 E retorne a lista completa na variável "resultado09"
 */
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta09 = false
+
 let tempA = numeros[1]
 let tempB = numeros[3]
 let tempC = numeros[5]
@@ -240,7 +240,7 @@ Finalizando com a lista da questão 7, crie uma nova lista com três itens onde:
 // Nova lista abaixo
 
 // Operações necessárias e resposta a partir da linha abaixo
-export const resposta10 = false
+
 
 const novaLista = [
   numeros[numeros.length - 1],
