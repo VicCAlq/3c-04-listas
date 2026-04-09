@@ -1,6 +1,16 @@
-Data de atualização: Dia 08/04/2026 às 14:18:51
+Data de atualização: Dia 09/04/2026 às 01:10:30
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-| ❌❌❌ | Ex ❌❌❌ | ❌❌❌ | ❌❌❌ | Algum de seus exercícios contém um loop infinito e os testes foram abortados por conta disso. |
+| ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | itemRemovido2 is not defined |
+|  1 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  2 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  3 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  4 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  5 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  6 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  7 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  8 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  9 | Ex 01 | ✅ | ✅ | Nenhum erro |
+| 10 | Ex 01 | ✅ | ✅ | Nenhum erro |
