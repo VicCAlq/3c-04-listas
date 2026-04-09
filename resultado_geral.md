@@ -1,4 +1,4 @@
-Data de atualização: Dia 09/04/2026 às 01:13:47
+Data de atualização: Dia 09/04/2026 às 20:31:24
  
 
 | Aluno | Qtd. questões acertadas (de 17) | Nota total |
@@ -7,7 +7,7 @@ Data de atualização: Dia 09/04/2026 às 01:13:47
 | Alice Marchi (Alice-Marchi) | 5 | 30.59 |
 | Alisson Santana (alissondogera) | 5 | 30.59 |
 | Angelo Davy (angelochef) | 10 | 58.82 |
-| Antonio Fernando (antoniodoib) | 14 | 82.35 |
+| Antonio Fernando (antoniodoib) | 24 | 100.00 |
 | Beatriz Carneiro (beatriz-carneiro) | 24 | 100.00 |
 | Calebe Aubertino (calebesilva09) | 0 | 0.00 |
 | Carlos Felipe (felipecunha1227) | 12 | 70.59 |
